@@ -34,7 +34,6 @@ html {
    
   }
 
-
   .navbar {
     width: 100%;
     height:50px;
@@ -67,12 +66,12 @@ html {
   }
 
   .sidenav {
-    float: center;
-    text-align: center;
-    padding: 12px;
+    display:flex;
+    justify-content: space-evenly;
+    font-size: 20px;
     color: rgb(179, 60, 0);
     text-decoration: none;
-    font-size: 17px;
+    
   }
 
   .sidenav a:hover {
@@ -92,7 +91,7 @@ html {
     height: 250px;
     width: 400px;
 
-    }
+ }
 
   article:nth-of-type(2) img {
       float: left;
@@ -106,22 +105,22 @@ html {
     padding: 0 10px 0 0;
     height: 250px;
     width: 400px;   
-}
+ }
 
-article:nth-of-type(4) img {
-  float: left;
-  padding: 0 10px 0 0;
-  height: 250px;
-  width: 400px;   
-}
+  article:nth-of-type(4) img {
+    float: left;
+    padding: 0 10px 0 0;
+    height: 250px;
+    width: 400px;    
+ }
 
- footer {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
    background-color:  rgb(255, 250, 230);
-   color:  rgb(179, 60, 0);
- } 
+    color:  rgb(179, 60, 0);
+  } 
 
  .fa {
   padding: 10px;
@@ -129,8 +128,8 @@ article:nth-of-type(4) img {
   width: 15px;
   text-align: center;
   text-decoration: none;
-  border-radius: 50%;
-}
+  border-radius: 50%; 
+ }
 
 .fa:hover {
     opacity: 0.5;
@@ -142,20 +141,20 @@ article:nth-of-type(4) img {
 
   }
 
-  .fa-twitter {
-    background: #55ACEE;
-    color: white;
-  }
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
 
-  .fa-pinterest {
-    background: #cb2027;
-    color: white;
-  }
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
 
-  .fa-instagram {
-    background: #125688;
-    color:white;
-  }
+.fa-instagram {
+  background: #125688;
+  color:white;
+}
   
     
 
